@@ -19,10 +19,50 @@
     </applicationListeners>
 
     <actions>
-        <group id="h4i.pluginMenu" text="Hack4Impact" description="Hack4Impact Actions" popup="true">
-            <action id="h4i.createESLintConfigurationTemplate"
+        <group id="h4i.pluginMenu" text="Hack4Impact" description="Hack4Impact Actions" popup="true"
+               icon="/icons/hack4impactIcon.svg">
+            <action id="h4i.CreateTemplateFiles"
+                    text="Create Template Files"
+                    description="Create Multiple Template Files"
+                    class="com.github.hack4impact.h4irecommendations.actions.CreateTemplateFiles"
+            />
+            <separator/>
+            <action id="h4i.CreateESLintConfigurationTemplate"
                     text="Create ESLint Configuration Template"
-                    class="com.github.hack4impact.h4irecommendations.actions.CreateESLintConfigurationTemplate"/>
+                    description="Create Hack4Impact's Recommended Configuration File for ESLint"
+                    class="com.github.hack4impact.h4irecommendations.actions.config.CreateESLintConfigurationTemplate"
+            />
+            <action id="h4i.CreatePrettierConfigurationTemplate"
+                    text="Create Prettier Configuration Template"
+                    description="Create Hack4Impact's Recommended Configuration File for Prettier"
+                    class="com.github.hack4impact.h4irecommendations.actions.config.CreatePrettierConfigurationTemplate"
+            />
+            <action id="h4i.CreateMarkdownLintConfigurationTemplate"
+                    text="Create MarkdownLint Configuration Template"
+                    description="Create Hack4Impact's Recommended Configuration File for MarkdownLint"
+                    class="com.github.hack4impact.h4irecommendations.actions.config.CreateMarkdownLintConfigurationTemplate"
+            />
+            <action id="h4i.CreateEditorConfigConfigurationTemplate"
+                    text="Create EditorConfig Configuration Template"
+                    description="Create Hack4Impact's Recommended Configuration File for EditorConfig"
+                    class="com.github.hack4impact.h4irecommendations.actions.config.CreateEditorConfigConfigurationTemplate"
+            />
+            <separator/>
+            <action id="h4i.CreateGitIgnoreTemplate"
+                    text="Create GitIgnore Template"
+                    description="Create Hack4Impact's Recommended GitIgnore Template"
+                    class="com.github.hack4impact.h4irecommendations.actions.misc.CreateGitIgnoreTemplate"
+            />
+            <action id="h4i.CreateChangelogTemplate"
+                    text="Create Changelog Template"
+                    description="Create Hack4Impact's Recommended Changelog Template"
+                    class="com.github.hack4impact.h4irecommendations.actions.misc.CreateChangelogTemplate"
+            />
+            <action id="h4i.CreateLicenseTemplate"
+                    text="Create License Template"
+                    description="Create Hack4Impact's Recommended License Template"
+                    class="com.github.hack4impact.h4irecommendations.actions.misc.CreateLicenseTemplate"
+            />
             <add-to-group group-id="ToolsMenu" anchor="first"/>
         </group>
     </actions>
