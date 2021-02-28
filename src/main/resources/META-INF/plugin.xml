@@ -1,19 +1,29 @@
 <idea-plugin>
-    <id>com.github.yashtotale.intellijplugin</id>
-    <name>intellij-plugin</name>
-    <vendor>yashtotale</vendor>
+    <id>com.github.hack4impact.h4irecommendations</id>
+    <name>Hack4Impact's Recommendations</name>
+    <vendor>Hack4Impact</vendor>
 
     <!-- Product and plugin compatibility requirements -->
     <!-- https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.yashtotale.intellijplugin.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.yashtotale.intellijplugin.services.MyProjectService"/>
+        <applicationService
+                serviceImplementation="com.github.hack4impact.h4irecommendations.services.MyApplicationService"/>
+        <projectService serviceImplementation="com.github.hack4impact.h4irecommendations.services.MyProjectService"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.yashtotale.intellijplugin.listeners.MyProjectManagerListener"
+        <listener class="com.github.hack4impact.h4irecommendations.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
+
+    <actions>
+        <group id="h4i.pluginMenu" text="Hack4Impact" description="Hack4Impact Actions" popup="true">
+            <action id="h4i.createESLintConfigurationTemplate"
+                    text="Create ESLint Configuration Template"
+                    class="com.github.hack4impact.h4irecommendations.actions.CreateESLintConfigurationTemplate"/>
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+        </group>
+    </actions>
 </idea-plugin>

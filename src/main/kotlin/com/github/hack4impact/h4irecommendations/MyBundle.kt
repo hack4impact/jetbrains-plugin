@@ -1,4 +1,4 @@
-package com.github.yashtotale.intellijplugin
+package com.github.hack4impact.h4irecommendations
 
 import com.intellij.AbstractBundle
 import org.jetbrains.annotations.NonNls

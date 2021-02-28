@@ -1,6 +1,6 @@
-package com.github.yashtotale.intellijplugin.services
+package com.github.hack4impact.h4irecommendations.services
 
-import com.github.yashtotale.intellijplugin.MyBundle
+import com.github.hack4impact.h4irecommendations.MyBundle
 import com.intellij.openapi.project.Project
 
 class MyProjectService(project: Project) {
