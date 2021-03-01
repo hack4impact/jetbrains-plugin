@@ -63,7 +63,7 @@
                     description="Create Hack4Impact's Recommended License Template"
                     class="com.github.hack4impact.h4irecommendations.actions.misc.CreateLicenseTemplate"
             />
-            <add-to-group group-id="ToolsMenu" anchor="first"/>
+            <add-to-group group-id="ToolsMenu" />
         </group>
     </actions>
 </idea-plugin>

@@ -5,6 +5,7 @@ import com.intellij.openapi.actionSystem.AnActionEvent
 
 class CreateTemplateFiles : AnAction() {
     override fun actionPerformed(e: AnActionEvent) {
-        println("Called")
+        var project = e.project
+        Helpers.getSingleFolder(project)
     }
 }
