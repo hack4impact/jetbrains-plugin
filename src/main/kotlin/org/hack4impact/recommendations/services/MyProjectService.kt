@@ -1,6 +1,6 @@
-package com.github.hack4impact.h4irecommendations.services
+package org.hack4impact.recommendations.services
 
-import com.github.hack4impact.h4irecommendations.MyBundle
+import org.hack4impact.recommendations.MyBundle
 import com.intellij.openapi.project.Project
 
 class MyProjectService(project: Project) {

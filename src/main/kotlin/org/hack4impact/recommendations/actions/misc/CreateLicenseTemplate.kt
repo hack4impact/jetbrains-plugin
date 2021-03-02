@@ -1,6 +1,6 @@
-package com.github.hack4impact.h4irecommendations.actions.misc
+package org.hack4impact.recommendations.actions.misc
 
-import com.github.hack4impact.h4irecommendations.actions.Helpers
+import org.hack4impact.recommendations.actions.Helpers
 import com.intellij.openapi.actionSystem.AnAction
 import com.intellij.openapi.actionSystem.AnActionEvent
 import com.intellij.openapi.project.Project
@@ -21,10 +21,10 @@ class CreateLicenseTemplate : AnAction() {
 
     override fun actionPerformed(e: AnActionEvent) {
         var project = e.project
-        var file = Helpers.getSingleFolder(project)
+        var folder = Helpers.getSingleFolder(project)
 
-        if (file !== null) {
-            createTemplate(file, project)
+        if (folder !== null) {
+            createTemplate(folder, project)
         }
     }
 

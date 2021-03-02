@@ -1,17 +1,17 @@
-package com.github.hack4impact.h4irecommendations.actions
+package org.hack4impact.recommendations.actions
 
-import com.github.hack4impact.h4irecommendations.actions.config.CreateESLintConfigurationTemplate
-import com.github.hack4impact.h4irecommendations.actions.config.CreateEditorConfigConfigurationTemplate
-import com.github.hack4impact.h4irecommendations.actions.config.CreateMarkdownLintConfigurationTemplate
-import com.github.hack4impact.h4irecommendations.actions.config.CreatePrettierConfigurationTemplate
-import com.github.hack4impact.h4irecommendations.actions.misc.CreateChangelogTemplate
-import com.github.hack4impact.h4irecommendations.actions.misc.CreateGitIgnoreTemplate
-import com.github.hack4impact.h4irecommendations.actions.misc.CreateLicenseTemplate
 import com.intellij.openapi.actionSystem.AnAction
 import com.intellij.openapi.actionSystem.AnActionEvent
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.ui.DialogWrapper
 import com.intellij.openapi.vfs.VirtualFile
+import org.hack4impact.recommendations.actions.config.CreateESLintConfigurationTemplate
+import org.hack4impact.recommendations.actions.config.CreateEditorConfigConfigurationTemplate
+import org.hack4impact.recommendations.actions.config.CreateMarkdownLintConfigurationTemplate
+import org.hack4impact.recommendations.actions.config.CreatePrettierConfigurationTemplate
+import org.hack4impact.recommendations.actions.misc.CreateChangelogTemplate
+import org.hack4impact.recommendations.actions.misc.CreateGitIgnoreTemplate
+import org.hack4impact.recommendations.actions.misc.CreateLicenseTemplate
 import org.jetbrains.annotations.Nullable
 import javax.swing.BoxLayout
 import javax.swing.JCheckBox
@@ -23,9 +23,6 @@ class CreateTemplateFiles : AnAction() {
         val project = e.project
         val dialog = SampleDialogWrapper()
         val chosen = dialog.showAndGet()
-
-        println(chosen)
-
         if (chosen) {
             val checkboxes = dialog.checkboxes
             val anySelected = checkboxes.find {
@@ -36,18 +33,22 @@ class CreateTemplateFiles : AnAction() {
                 val folder = Helpers.getSingleFolder(project)
 
                 if (folder !== null) {
-                    checkboxes.forEach {
-                        if (it.isSelected) {
-                            createTemplate(it.text, folder, project)
-                        }
-                    }
+                    createTemplates(checkboxes, folder, project)
                 }
             }
         }
     }
 
+    fun createTemplates(checkboxes: ArrayList<JCheckBox>, folder: VirtualFile, project: Project?) {
+        checkboxes.forEach {
+            if (it.isSelected) {
+                createTemplate(it.text, folder, project)
+            }
+        }
+    }
+
     fun createTemplate(name: String, folder: VirtualFile, project: Project?) {
-        when(name) {
+        when (name) {
             "ESLint" -> CreateESLintConfigurationTemplate().createTemplate(folder, project)
             "Prettier" -> CreatePrettierConfigurationTemplate().createTemplate(folder, project)
             "MarkdownLint" -> CreateMarkdownLintConfigurationTemplate().createTemplate(

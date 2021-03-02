@@ -9,12 +9,12 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <applicationService
-                serviceImplementation="com.github.hack4impact.h4irecommendations.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.hack4impact.h4irecommendations.services.MyProjectService"/>
+                serviceImplementation="org.hack4impact.recommendations.services.MyApplicationService"/>
+        <projectService serviceImplementation="org.hack4impact.recommendations.services.MyProjectService"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.hack4impact.h4irecommendations.listeners.MyProjectManagerListener"
+        <listener class="org.hack4impact.recommendations.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
 
@@ -24,44 +24,44 @@
             <action id="h4i.CreateTemplateFiles"
                     text="Create Template Files"
                     description="Create Multiple Template Files"
-                    class="com.github.hack4impact.h4irecommendations.actions.CreateTemplateFiles"
+                    class="org.hack4impact.recommendations.actions.CreateTemplateFiles"
             />
             <separator/>
             <action id="h4i.CreateESLintConfigurationTemplate"
                     text="Create ESLint Configuration Template"
                     description="Create Hack4Impact's Recommended Configuration File for ESLint"
-                    class="com.github.hack4impact.h4irecommendations.actions.config.CreateESLintConfigurationTemplate"
+                    class="org.hack4impact.recommendations.actions.config.CreateESLintConfigurationTemplate"
             />
             <action id="h4i.CreatePrettierConfigurationTemplate"
                     text="Create Prettier Configuration Template"
                     description="Create Hack4Impact's Recommended Configuration File for Prettier"
-                    class="com.github.hack4impact.h4irecommendations.actions.config.CreatePrettierConfigurationTemplate"
+                    class="org.hack4impact.recommendations.actions.config.CreatePrettierConfigurationTemplate"
             />
             <action id="h4i.CreateMarkdownLintConfigurationTemplate"
                     text="Create MarkdownLint Configuration Template"
                     description="Create Hack4Impact's Recommended Configuration File for MarkdownLint"
-                    class="com.github.hack4impact.h4irecommendations.actions.config.CreateMarkdownLintConfigurationTemplate"
+                    class="org.hack4impact.recommendations.actions.config.CreateMarkdownLintConfigurationTemplate"
             />
             <action id="h4i.CreateEditorConfigConfigurationTemplate"
                     text="Create EditorConfig Configuration Template"
                     description="Create Hack4Impact's Recommended Configuration File for EditorConfig"
-                    class="com.github.hack4impact.h4irecommendations.actions.config.CreateEditorConfigConfigurationTemplate"
+                    class="org.hack4impact.recommendations.actions.config.CreateEditorConfigConfigurationTemplate"
             />
             <separator/>
             <action id="h4i.CreateGitIgnoreTemplate"
                     text="Create GitIgnore Template"
                     description="Create Hack4Impact's Recommended GitIgnore Template"
-                    class="com.github.hack4impact.h4irecommendations.actions.misc.CreateGitIgnoreTemplate"
+                    class="org.hack4impact.recommendations.actions.misc.CreateGitIgnoreTemplate"
             />
             <action id="h4i.CreateChangelogTemplate"
                     text="Create Changelog Template"
                     description="Create Hack4Impact's Recommended Changelog Template"
-                    class="com.github.hack4impact.h4irecommendations.actions.misc.CreateChangelogTemplate"
+                    class="org.hack4impact.recommendations.actions.misc.CreateChangelogTemplate"
             />
             <action id="h4i.CreateLicenseTemplate"
                     text="Create License Template"
                     description="Create Hack4Impact's Recommended License Template"
-                    class="com.github.hack4impact.h4irecommendations.actions.misc.CreateLicenseTemplate"
+                    class="org.hack4impact.recommendations.actions.misc.CreateLicenseTemplate"
             />
             <add-to-group group-id="ToolsMenu" />
         </group>

@@ -1,4 +1,4 @@
-package com.github.hack4impact.h4irecommendations
+package org.hack4impact.recommendations
 
 import com.intellij.AbstractBundle
 import org.jetbrains.annotations.NonNls
