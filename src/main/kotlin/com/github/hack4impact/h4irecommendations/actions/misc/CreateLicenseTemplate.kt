@@ -28,10 +28,10 @@ class CreateLicenseTemplate : AnAction() {
         }
     }
 
-    fun createTemplate(file: VirtualFile, project: Project?) {
+    fun createTemplate(folder: VirtualFile, project: Project?) {
         Helpers.createTemplateFile(
             "License",
-            file.path + "/LICENSE.md",
+            folder.path + "/LICENSE.md",
             templateContent,
             "https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository",
             project

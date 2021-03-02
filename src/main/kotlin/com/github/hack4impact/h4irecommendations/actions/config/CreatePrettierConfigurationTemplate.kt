@@ -30,10 +30,10 @@ class CreatePrettierConfigurationTemplate : AnAction() {
         }
     }
 
-    fun createTemplate(file: VirtualFile, project: Project?) {
+    fun createTemplate(folder: VirtualFile, project: Project?) {
         Helpers.createTemplateFile(
             "Prettier",
-            file.path + "/.prettierrc.json",
+            folder.path + "/.prettierrc.json",
             templateContent,
             "https://prettier.io/docs/en/configuration.html",
             project

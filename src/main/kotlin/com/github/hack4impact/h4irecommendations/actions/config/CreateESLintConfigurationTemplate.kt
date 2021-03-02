@@ -41,10 +41,10 @@ class CreateESLintConfigurationTemplate : AnAction() {
         }
     }
 
-    fun createTemplate(file: VirtualFile, project: Project?) {
+    fun createTemplate(folder: VirtualFile, project: Project?) {
         Helpers.createTemplateFile(
             "ESLint",
-            file.path + "/.eslintrc.json",
+            folder.path + "/.eslintrc.json",
             templateContent,
             "https://eslint.org/",
             project

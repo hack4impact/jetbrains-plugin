@@ -37,10 +37,10 @@ class CreateGitIgnoreTemplate : AnAction() {
         }
     }
 
-    fun createTemplate(file: VirtualFile, project: Project?) {
+    fun createTemplate(folder: VirtualFile, project: Project?) {
         Helpers.createTemplateFile(
             "GitIgnore",
-            file.path + "/.gitignore",
+            folder.path + "/.gitignore",
             templateContent,
             "https://git-scm.com/docs/gitignore",
             project

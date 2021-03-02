@@ -22,10 +22,10 @@ class CreateMarkdownLintConfigurationTemplate : AnAction() {
         }
     }
 
-    fun createTemplate(file: VirtualFile, project: Project?) {
+    fun createTemplate(folder: VirtualFile, project: Project?) {
         Helpers.createTemplateFile(
             "MarkdownLint",
-            file.path + "/.markdownlint.json",
+            folder.path + "/.markdownlint.json",
             templateContent,
             "https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md",
             project

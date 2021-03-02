@@ -30,10 +30,10 @@ class CreateEditorConfigConfigurationTemplate : AnAction() {
         }
     }
 
-    fun createTemplate(file: VirtualFile, project: Project?) {
+    fun createTemplate(folder: VirtualFile, project: Project?) {
         Helpers.createTemplateFile(
             "EditorConfig",
-            file.path + "/.editorconfig",
+            folder.path + "/.editorconfig",
             templateContent,
             "https://editorconfig.org",
             project

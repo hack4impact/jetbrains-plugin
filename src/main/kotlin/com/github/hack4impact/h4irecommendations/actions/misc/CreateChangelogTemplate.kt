@@ -30,10 +30,10 @@ class CreateChangelogTemplate : AnAction() {
         }
     }
 
-    fun createTemplate(file: VirtualFile, project: Project?) {
+    fun createTemplate(folder: VirtualFile, project: Project?) {
         Helpers.createTemplateFile(
             "Changelog",
-            file.path + "/CHANGELOG.md",
+            folder.path + "/CHANGELOG.md",
             templateContent,
             "https://keepachangelog.com/",
             project
