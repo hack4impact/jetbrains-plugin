@@ -59,7 +59,7 @@ Hack4Impact's JetBrains plugin that provides recommended templates for quality p
 
 #### Action ID
 
-`hack4impact.template.create`
+`hack4impact.templates.create`
 
 #### Description
 
@@ -73,7 +73,7 @@ Hack4Impact's JetBrains plugin that provides recommended templates for quality p
 
 #### Action ID
 
-`hack4impact.template.create.ESLintConfig`
+`hack4impact.templates.create.ESLintConfig`
 
 #### Description
 
@@ -86,7 +86,7 @@ Hack4Impact's JetBrains plugin that provides recommended templates for quality p
 
 #### Action ID
 
-`hack4impact.template.create.PrettierConfig`
+`hack4impact.templates.create.PrettierConfig`
 
 #### Description
 
@@ -99,7 +99,7 @@ Hack4Impact's JetBrains plugin that provides recommended templates for quality p
 
 #### Action ID
 
-`hack4impact.template.create.MarkdownLintConfig`
+`hack4impact.templates.create.MarkdownLintConfig`
 
 #### Description
 
@@ -112,7 +112,7 @@ Hack4Impact's JetBrains plugin that provides recommended templates for quality p
 
 #### Action ID
 
-`hack4impact.template.create.EditorConfigConfig`
+`hack4impact.templates.create.EditorConfigConfig`
 
 #### Description
 
@@ -125,7 +125,7 @@ Hack4Impact's JetBrains plugin that provides recommended templates for quality p
 
 #### Action ID
 
-`hack4impact.template.create.GitIgnore`
+`hack4impact.templates.create.GitIgnore`
 
 #### Description
 
@@ -138,7 +138,7 @@ Hack4Impact's JetBrains plugin that provides recommended templates for quality p
 
 #### Action ID
 
-`hack4impact.template.create.Changelog`
+`hack4impact.templates.create.Changelog`
 
 #### Description
 
@@ -151,7 +151,7 @@ Hack4Impact's JetBrains plugin that provides recommended templates for quality p
 
 #### Action ID
 
-`hack4impact.template.create.License`
+`hack4impact.templates.create.License`
 
 #### Description
 

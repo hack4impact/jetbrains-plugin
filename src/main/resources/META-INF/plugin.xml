@@ -12,44 +12,44 @@
     <actions>
         <group id="h4i.pluginMenu" text="Hack4Impact" description="Hack4Impact Actions" popup="true"
                icon="/icons/hack4impactIcon.svg">
-            <action id="hack4impact.template.create"
+            <action id="hack4impact.templates.create"
                     text="Create Template Files"
                     description="Create Multiple Template Files"
                     class="org.hack4impact.recommendations.actions.CreateTemplateFiles"
             />
             <separator/>
-            <action id="hack4impact.template.create.ESLintConfig"
+            <action id="hack4impact.templates.create.ESLintConfig"
                     text="Create ESLint Configuration Template"
                     description="Create Hack4Impact's Recommended Configuration File for ESLint"
                     class="org.hack4impact.recommendations.actions.config.CreateESLintConfigurationTemplate"
             />
-            <action id="hack4impact.template.create.PrettierConfig"
+            <action id="hack4impact.templates.create.PrettierConfig"
                     text="Create Prettier Configuration Template"
                     description="Create Hack4Impact's Recommended Configuration File for Prettier"
                     class="org.hack4impact.recommendations.actions.config.CreatePrettierConfigurationTemplate"
             />
-            <action id="hack4impact.template.create.MarkdownLintConfig"
+            <action id="hack4impact.templates.create.MarkdownLintConfig"
                     text="Create MarkdownLint Configuration Template"
                     description="Create Hack4Impact's Recommended Configuration File for MarkdownLint"
                     class="org.hack4impact.recommendations.actions.config.CreateMarkdownLintConfigurationTemplate"
             />
-            <action id="hack4impact.template.create.EditorConfigConfig"
+            <action id="hack4impact.templates.create.EditorConfigConfig"
                     text="Create EditorConfig Configuration Template"
                     description="Create Hack4Impact's Recommended Configuration File for EditorConfig"
                     class="org.hack4impact.recommendations.actions.config.CreateEditorConfigConfigurationTemplate"
             />
             <separator/>
-            <action id="hack4impact.template.create.GitIgnore"
+            <action id="hack4impact.templates.create.GitIgnore"
                     text="Create GitIgnore Template"
                     description="Create Hack4Impact's Recommended GitIgnore Template"
                     class="org.hack4impact.recommendations.actions.misc.CreateGitIgnoreTemplate"
             />
-            <action id="hack4impact.template.create.Changelog"
+            <action id="hack4impact.templates.create.Changelog"
                     text="Create Changelog Template"
                     description="Create Hack4Impact's Recommended Changelog Template"
                     class="org.hack4impact.recommendations.actions.misc.CreateChangelogTemplate"
             />
-            <action id="hack4impact.template.create.License"
+            <action id="hack4impact.templates.create.License"
                     text="Create License Template"
                     description="Create Hack4Impact's Recommended License Template"
                     class="org.hack4impact.recommendations.actions.misc.CreateLicenseTemplate"
