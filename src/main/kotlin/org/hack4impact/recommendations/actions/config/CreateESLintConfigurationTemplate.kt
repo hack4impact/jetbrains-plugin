@@ -1,6 +1,6 @@
 package org.hack4impact.recommendations.actions.config
 
-import org.hack4impact.recommendations.actions.Helpers
+import org.hack4impact.recommendations.Helpers
 import com.intellij.openapi.actionSystem.AnAction
 import com.intellij.openapi.actionSystem.AnActionEvent
 import com.intellij.openapi.project.Project

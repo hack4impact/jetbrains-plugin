@@ -5,6 +5,7 @@ import com.intellij.openapi.actionSystem.AnActionEvent
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.ui.DialogWrapper
 import com.intellij.openapi.vfs.VirtualFile
+import org.hack4impact.recommendations.Helpers
 import org.hack4impact.recommendations.actions.config.CreateESLintConfigurationTemplate
 import org.hack4impact.recommendations.actions.config.CreateEditorConfigConfigurationTemplate
 import org.hack4impact.recommendations.actions.config.CreateMarkdownLintConfigurationTemplate

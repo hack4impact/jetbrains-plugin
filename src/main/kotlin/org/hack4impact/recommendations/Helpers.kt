@@ -1,4 +1,4 @@
-package org.hack4impact.recommendations.actions
+package org.hack4impact.recommendations
 
 import com.intellij.ide.BrowserUtil
 import com.intellij.ide.actions.OpenFileAction
