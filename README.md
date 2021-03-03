@@ -5,10 +5,9 @@
   <b><a href="https://hack4impact.org/">Hack4Impact</a>'s JetBrains Recommendations</b>
 </h1>
 
-![Build](https://github.com/YashTotale/jetbrains-plugin/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-
+<p align="center">
+<a href="https://github.com/YashTotale/jetbrains-plugin/actions/workflows/build.yml?query=workflow%3A%22CI%22"><img src="https://img.shields.io/github/workflow/status/YashTotale/jetbrains-plugin/CI?style=flat-square&label=Build&logo=github&logoColor=FFFFFF&labelColor=000000" alt="Build"/></a>
+</p>
 
 <!-- Plugin description -->
 Hack4Impact's JetBrains plugin that provides recommended templates for quality project development:
@@ -19,13 +18,25 @@ Hack4Impact's JetBrains plugin that provides recommended templates for quality p
 - EditorConfig Configuration (`.editorconfig`)
 - GitIgnore (`.gitignore`)
 - Changelog (`CHANGELOG.md`)
-- License (`LICENSE.md`)
 <!-- Plugin description end -->
-## Template ToDo list
+
+## Contents <!-- omit in toc -->
+
+- [Installation](#installation)
+- [Actions](#actions)
+  - [Create Template Files](#create-template-files)
+  - [Create ESLint Configuration Template](#create-eslint-configuration-template)
+  - [Create Prettier Configuration Template](#create-prettier-configuration-template)
+  - [Create MarkdownLint Configuration Template](#create-markdownlint-configuration-template)
+  - [Create EditorConfig Configuration Template](#create-editorconfig-configuration-template)
+  - [Create GitIgnore Template](#create-gitignore-template)
+  - [Create Changelog Template](#create-changelog-template)
+  - [Create License Template](#create-license-template)
+
+## TODO
 
 - [ ] [Publish a plugin manually](https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html?from=IJPluginTemplate)
   for the first time.
-- [ ] Set the Plugin ID in the above README badges.
 - [ ] Set the [Deployment Token](https://plugins.jetbrains.com/docs/marketplace/plugin-upload.html).
 
 ## Installation

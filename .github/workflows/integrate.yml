@@ -12,7 +12,7 @@
 # - IntelliJ Plugin Verifier GitHub Action: https://github.com/ChrisCarini/intellij-platform-plugin-verifier-action
 #
 
-name: Build
+name: CI
 on:
   - push
   - pull_request
