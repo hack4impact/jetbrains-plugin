@@ -58,6 +58,8 @@ If you use VS Code instead, install the [VS Code Extension](https://github.com/h
 
 ## Actions
 
+All Actions can be found on the menu bar: <kbd>Tools</kbd> > <kbd>Hack4Impact</kbd>
+
 ### Create Template Files
 
 #### Action ID

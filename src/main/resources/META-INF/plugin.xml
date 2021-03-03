@@ -22,21 +22,25 @@
                     text="Create ESLint Configuration Template"
                     description="Create Hack4Impact's Recommended Configuration File for ESLint"
                     class="org.hack4impact.recommendations.actions.config.CreateESLintConfigurationTemplate"
+                    icon="/icons/pack-icons/eslint.svg"
             />
             <action id="hack4impact.templates.create.PrettierConfig"
                     text="Create Prettier Configuration Template"
                     description="Create Hack4Impact's Recommended Configuration File for Prettier"
                     class="org.hack4impact.recommendations.actions.config.CreatePrettierConfigurationTemplate"
+                    icon="/icons/pack-icons/prettier.svg"
             />
             <action id="hack4impact.templates.create.MarkdownLintConfig"
                     text="Create MarkdownLint Configuration Template"
                     description="Create Hack4Impact's Recommended Configuration File for MarkdownLint"
                     class="org.hack4impact.recommendations.actions.config.CreateMarkdownLintConfigurationTemplate"
+                    icon="/icons/pack-icons/markdownlint.svg"
             />
             <action id="hack4impact.templates.create.EditorConfigConfig"
                     text="Create EditorConfig Configuration Template"
                     description="Create Hack4Impact's Recommended Configuration File for EditorConfig"
                     class="org.hack4impact.recommendations.actions.config.CreateEditorConfigConfigurationTemplate"
+                    icon="/icons/pack-icons/editorconfig.svg"
             />
             <separator/>
             <action id="hack4impact.templates.create.GitIgnore"
