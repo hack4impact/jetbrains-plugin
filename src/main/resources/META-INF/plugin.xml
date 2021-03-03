@@ -7,16 +7,7 @@
     <!-- https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
     <depends>com.intellij.modules.platform</depends>
 
-    <extensions defaultExtensionNs="com.intellij">
-        <applicationService
-                serviceImplementation="org.hack4impact.recommendations.services.MyApplicationService"/>
-        <projectService serviceImplementation="org.hack4impact.recommendations.services.MyProjectService"/>
-    </extensions>
-
-    <applicationListeners>
-        <listener class="org.hack4impact.recommendations.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
+    <extensions defaultExtensionNs="com.intellij"/>
 
     <actions>
         <group id="h4i.pluginMenu" text="Hack4Impact" description="Hack4Impact Actions" popup="true"
