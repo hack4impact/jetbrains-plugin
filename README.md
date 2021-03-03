@@ -18,6 +18,9 @@ Hack4Impact's JetBrains plugin that provides recommended templates for quality p
 - EditorConfig Configuration (`.editorconfig`)
 - GitIgnore (`.gitignore`)
 - Changelog (`CHANGELOG.md`)
+- License (`LICENSE.md`)
+
+If you use VS Code instead, install the [VS Code Extension](https://github.com/hack4impact/vscode-extension).
 <!-- Plugin description end -->
 
 ## Contents <!-- omit in toc -->

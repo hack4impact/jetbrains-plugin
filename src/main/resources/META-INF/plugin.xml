@@ -1,5 +1,5 @@
 <idea-plugin>
-    <id>com.github.hack4impact.h4irecommendations</id>
+    <id>org.hack4impact.recommendations</id>
     <name>Hack4Impact's Recommendations</name>
     <vendor>Hack4Impact</vendor>
 
