@@ -7,6 +7,7 @@ import com.intellij.openapi.project.Project
 import com.intellij.openapi.vfs.VirtualFile
 
 class CreateLicenseTemplate : AnAction() {
+    @Suppress("MaxLineLength")
     var templateContent = """
         MIT License
 

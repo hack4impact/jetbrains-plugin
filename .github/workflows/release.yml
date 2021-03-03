@@ -4,10 +4,11 @@
 name: Release
 on:
   release:
-    types: [prereleased, released]
+    types:
+      - prereleased
+      - released
 
 jobs:
-
   # Prepare and publish the plugin to the Marketplace repository
   release:
     name: Publish Plugin
@@ -60,7 +61,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git commit -m "Update changelog" -a
+          git commit -m "Update ChangeLog" -a
 
       # Push changes
       - name: Push changes
