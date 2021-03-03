@@ -1,40 +1,148 @@
-# jetbrains-plugin
+<h1 align="center">
+  <br>
+    <a href="https://hack4impact.org/"><img src="https://raw.githubusercontent.com/YashTotale/jetbrains-plugin/main/src/main/resources/icons/rotating-icon.gif" alt="Hack4Impact Icon" width="100"></a>
+  <br>
+  <b><a href="https://hack4impact.org/">Hack4Impact</a>'s JetBrains Recommendations</b>
+</h1>
 
 ![Build](https://github.com/YashTotale/jetbrains-plugin/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
 
-## Template ToDo list
-- [x] Create a new [IntelliJ Platform Plugin Template][template] project.
-- [x] Verify the [pluginGroup](/gradle.properties), [plugin ID](/src/main/resources/META-INF/plugin.xml) and [sources package](/src/main/kotlin).
-- [x] Review the [Legal Agreements](https://plugins.jetbrains.com/docs/marketplace/legal-agreements.html).
-- [ ] [Publish a plugin manually](https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html?from=IJPluginTemplate) for the first time.
-- [ ] Set the Plugin ID in the above README badges.
-- [ ] Set the [Deployment Token](https://plugins.jetbrains.com/docs/marketplace/plugin-upload.html).
-- [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
 
 <!-- Plugin description -->
-This Fancy IntelliJ Platform Plugin is going to be your implementation of the brilliant ideas that you have.
-~~~~
-This specific section is a source for the [plugin.xml](/src/main/resources/META-INF/plugin.xml) file which will be extracted by the [Gradle](/build.gradle.kts) during the build process.
+Hack4Impact's JetBrains plugin that provides recommended templates for quality project development:
 
-To keep everything working, do not remove `<!-- ... -->` sections. 
+- ESLint Configuration (`.eslintrc.json`)
+- Prettier Configuration (`.prettierrc.json`)
+- MarkdownLint Configuration (`.markdownlint.json`)
+- EditorConfig Configuration (`.editorconfig`)
+- GitIgnore (`.gitignore`)
+- Changelog (`CHANGELOG.md`)
+- License (`LICENSE.md`)
 <!-- Plugin description end -->
+## Template ToDo list
+
+- [ ] [Publish a plugin manually](https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html?from=IJPluginTemplate)
+  for the first time.
+- [ ] Set the Plugin ID in the above README badges.
+- [ ] Set the [Deployment Token](https://plugins.jetbrains.com/docs/marketplace/plugin-upload.html).
 
 ## Installation
 
 - Using IDE built-in plugin system:
-  
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "jetbrains-plugin"</kbd> >
+
+  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "Hack4Impact's
+  Recommendations"</kbd> >
   <kbd>Install Plugin</kbd>
-  
+
 - Manually:
 
-  Download the [latest release](https://github.com/YashTotale/jetbrains-plugin/releases/latest) and install it manually using
+  Download the [latest release](https://github.com/YashTotale/jetbrains-plugin/releases/latest) and install it manually
+  using
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
 
+## Actions
+
+### Create Template Files
+
+#### Action ID
+
+`hack4impact.template.create`
+
+#### Description
+
+- Opens a Dialog to choose the templates that should be created
+- Shows a File Picker Dialog to pick the folder where the templates should be created
+- Creates the templates with Hack4Impact's recommended configuration
 
 ---
-Plugin based on the [IntelliJ Platform Plugin Template][template].
 
-[template]: https://github.com/JetBrains/intellij-platform-plugin-template
+### Create ESLint Configuration Template
+
+#### Action ID
+
+`hack4impact.template.create.ESLintConfig`
+
+#### Description
+
+- Shows a File Picker Dialog to pick the folder where a `.eslintrc.json` file should be created
+- Creates a `.eslintrc.json` file with Hack4Impact's recommended configuration
+
+---
+
+### Create Prettier Configuration Template
+
+#### Action ID
+
+`hack4impact.template.create.PrettierConfig`
+
+#### Description
+
+- Shows a File Picker Dialog to pick the folder where a `.prettierrc.json` file should be created
+- Creates a `.prettierrc.json` file with Hack4Impact's recommended configuration
+
+---
+
+### Create MarkdownLint Configuration Template
+
+#### Action ID
+
+`hack4impact.template.create.MarkdownLintConfig`
+
+#### Description
+
+- Shows a File Picker Dialog to pick the folder where a `.markdownlint.json` file should be created
+- Creates a `.markdownlint.json` file with Hack4Impact's recommended configuration
+
+---
+
+### Create EditorConfig Configuration Template
+
+#### Action ID
+
+`hack4impact.template.create.EditorConfigConfig`
+
+#### Description
+
+- Shows a File Picker Dialog to pick the folder where a `.editorconfig` file should be created
+- Creates a `.editorconfig` file with Hack4Impact's recommended configuration
+
+---
+
+### Create GitIgnore Template
+
+#### Action ID
+
+`hack4impact.template.create.GitIgnore`
+
+#### Description
+
+- Shows a File Picker Dialog to pick the folder where a `.gitignore` file should be created
+- Creates a boilerplate `.gitignore` file
+
+---
+
+### Create Changelog Template
+
+#### Action ID
+
+`hack4impact.template.create.Changelog`
+
+#### Description
+
+- Shows a File Picker Dialog to pick the folder where a `CHANGELOG.md` file should be created
+- Creates a boilerplate `CHANGELOG.md` file
+
+---
+
+### Create License Template
+
+#### Action ID
+
+`hack4impact.template.create.License`
+
+#### Description
+
+- Shows a File Picker Dialog to pick the folder where a `LICENSE.md` file should be created
+- Creates a boilerplate `LICENSE.md` file
