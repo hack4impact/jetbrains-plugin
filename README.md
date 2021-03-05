@@ -35,6 +35,7 @@ If you use VS Code instead, install the [VS Code Extension](https://github.com/h
   - [Create GitIgnore Template](#create-gitignore-template)
   - [Create Changelog Template](#create-changelog-template)
   - [Create License Template](#create-license-template)
+- [Contributors](#contributors)
 
 ## TODO
 
