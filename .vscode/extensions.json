@@ -2,6 +2,7 @@
   "recommendations": [
       "fwcd.kotlin",
       "mathiasfrohlich.kotlin",
-      "richardwillis.vscode-gradle"
+      "richardwillis.vscode-gradle",
+      "jasonnutter.vscode-codeowners"
   ]
 }
