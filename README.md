@@ -37,12 +37,6 @@ If you use VS Code instead, install the [VS Code Extension](https://github.com/h
   - [Create License Template](#create-license-template)
 - [Contributors](#contributors)
 
-## TODO
-
-- [ ] [Publish a plugin manually](https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html?from=IJPluginTemplate)
-  for the first time.
-- [ ] Set the [Deployment Token](https://plugins.jetbrains.com/docs/marketplace/plugin-upload.html).
-
 ## Installation
 
 - Using IDE built-in plugin system:
