@@ -1,0 +1,5 @@
+| Configuration name | Description                                                                                                                                                            |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Run Plugin         | Runs [`:runIde`](https://github.com/JetBrains/gradle-intellij-plugin#running-dsl) Gradle IntelliJ Plugin task. Use the *Debug* icon for plugin debugging.                                        |
+| Run Tests          | Runs [`:check`](https://docs.gradle.org/current/userguide/java_plugin.html#lifecycle_tasks) Gradle task that invokes `:test` and `detekt`/`ktlint` code inspections.                                                       |
+| Run Verifications  | Runs [`:runPluginVerifier`](https://github.com/JetBrains/gradle-intellij-plugin#plugin-verifier-dsl) Gradle IntelliJ Plugin task to check the plugin compatibility against the specified IntelliJ IDEs. |

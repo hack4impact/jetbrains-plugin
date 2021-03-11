@@ -1,12 +1,14 @@
 <h1 align="center">
   <br>
-    <a href="https://hack4impact.org/"><img src="https://raw.githubusercontent.com/YashTotale/jetbrains-plugin/main/src/main/resources/icons/rotating-icon.gif" alt="Hack4Impact Icon" width="100"></a>
+    <a href="https://hack4impact.org/"><img src="https://raw.githubusercontent.com/hack4impact/jetbrains-plugin/main/src/main/resources/icons/rotating-icon.gif" alt="Hack4Impact Icon" width="100"></a>
   <br>
   <b><a href="https://hack4impact.org/">Hack4Impact</a>'s JetBrains Recommendations</b>
 </h1>
 
 <p align="center">
-<a href="https://github.com/YashTotale/jetbrains-plugin/actions/workflows/build.yml?query=workflow%3A%22CI%22"><img src="https://img.shields.io/github/workflow/status/YashTotale/jetbrains-plugin/CI?style=flat-square&label=Build&logo=github&logoColor=FFFFFF&labelColor=000000" alt="Build"/></a>
+<a href="https://plugins.jetbrains.com/plugin/16260-hack4impact-s-recommendations"><img src="https://img.shields.io/jetbrains/plugin/v/16260?style=flat-square&label=Version&logo=jetbrains&logoColor=FFFFFF&labelColor=000000" alt="Version" /></a>
+<a href="https://plugins.jetbrains.com/plugin/16260-hack4impact-s-recommendations/reviews"><img src="https://img.shields.io/jetbrains/plugin/r/rating/16260?style=flat-square&label=Rating&logo=jetbrains&logoColor=FFFFFF&labelColor=000000" /></a>
+<a href="https://github.com/hack4impact/jetbrains-plugin/actions?query=workflow%3A%22CI%22"><img src="https://img.shields.io/github/workflow/status/hack4impact/jetbrains-plugin/CI?style=flat-square&label=Build&logo=github&logoColor=FFFFFF&labelColor=000000" alt="Build"/></a>
 </p>
 
 <!-- Plugin description -->
@@ -35,12 +37,7 @@ If you use VS Code instead, install the [VS Code Extension](https://github.com/h
   - [Create GitIgnore Template](#create-gitignore-template)
   - [Create Changelog Template](#create-changelog-template)
   - [Create License Template](#create-license-template)
-
-## TODO
-
-- [ ] [Publish a plugin manually](https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html?from=IJPluginTemplate)
-  for the first time.
-- [ ] Set the [Deployment Token](https://plugins.jetbrains.com/docs/marketplace/plugin-upload.html).
+- [Contributors](#contributors)
 
 ## Installation
 
@@ -52,7 +49,7 @@ If you use VS Code instead, install the [VS Code Extension](https://github.com/h
 
 - Manually:
 
-  Download the [latest release](https://github.com/YashTotale/jetbrains-plugin/releases/latest) and install it manually
+  Download the [latest release](https://github.com/hack4impact/jetbrains-plugin/releases/latest) and install it manually
   using
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
 
@@ -172,7 +169,7 @@ Project Contributors ([emoji key](https://allcontributors.org/docs/en/emoji-key)
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/YashTotale"><img src="https://avatars.githubusercontent.com/u/30784592?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yash Totale</b></sub></a><br /><a href="https://github.com/YashTotale/jetbrains-plugin/commits?author=YashTotale" title="Code">💻</a> <a href="#ideas-YashTotale" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/YashTotale/jetbrains-plugin/commits?author=YashTotale" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/YashTotale"><img src="https://avatars.githubusercontent.com/u/30784592?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yash Totale</b></sub></a><br /><a href="https://github.com/hack4impact/jetbrains-plugin/commits?author=YashTotale" title="Code">💻</a> <a href="#ideas-YashTotale" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/hack4impact/jetbrains-plugin/commits?author=YashTotale" title="Documentation">📖</a></td>
     <td align="center"><a href="https://bholmes.dev/"><img src="https://avatars.githubusercontent.com/u/31811199?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Benjamin Holmes</b></sub></a><br /><a href="#mentoring-Holben888" title="Mentoring">🧑‍🏫</a> <a href="#ideas-Holben888" title="Ideas, Planning, & Feedback">🤔</a> <a href="#projectManagement-Holben888" title="Project Management">📆</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/eric-newcomer/"><img src="https://avatars.githubusercontent.com/u/20120289?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eric Newcomer</b></sub></a><br /><a href="#mentoring-eric-newcomer" title="Mentoring">🧑‍🏫</a> <a href="#projectManagement-eric-newcomer" title="Project Management">📆</a></td>
   </tr>
