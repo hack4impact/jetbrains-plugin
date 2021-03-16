@@ -11,6 +11,7 @@ import org.hack4impact.recommendations.actions.config.CreateEditorConfigConfigur
 import org.hack4impact.recommendations.actions.config.CreateMarkdownLintConfigurationTemplate
 import org.hack4impact.recommendations.actions.config.CreatePrettierConfigurationTemplate
 import org.hack4impact.recommendations.actions.misc.CreateChangelogTemplate
+import org.hack4impact.recommendations.actions.misc.CreateCodeOwnersTemplate
 import org.hack4impact.recommendations.actions.misc.CreateGitIgnoreTemplate
 import org.hack4impact.recommendations.actions.misc.CreateLicenseTemplate
 import org.jetbrains.annotations.Nullable
@@ -61,6 +62,7 @@ class CreateTemplateFiles : AnAction() {
             "GitIgnore" -> CreateGitIgnoreTemplate().createTemplate(folder, project)
             "Changelog" -> CreateChangelogTemplate().createTemplate(folder, project)
             "License" -> CreateLicenseTemplate().createTemplate(folder, project)
+            "CodeOwners" -> CreateCodeOwnersTemplate().createTemplate(folder, project)
         }
     }
 }
@@ -74,7 +76,8 @@ class SampleDialogWrapper : DialogWrapper(true) {
         "EditorConfig",
         "GitIgnore",
         "Changelog",
-        "License"
+        "License",
+        "CodeOwners"
     )
     val checkboxes = arrayListOf<JCheckBox>()
 

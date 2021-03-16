@@ -7,7 +7,7 @@
 
 <p align="center">
 <a href="https://plugins.jetbrains.com/plugin/16260-hack4impact-s-recommendations"><img src="https://img.shields.io/jetbrains/plugin/v/16260?style=flat-square&label=Version&logo=jetbrains&logoColor=FFFFFF&labelColor=000000" alt="Version" /></a>
-<a href="https://plugins.jetbrains.com/plugin/16260-hack4impact-s-recommendations/reviews"><img src="https://img.shields.io/jetbrains/plugin/r/rating/16260?style=flat-square&label=Rating&logo=jetbrains&logoColor=FFFFFF&labelColor=000000" /></a>
+<a href="https://plugins.jetbrains.com/plugin/16260-hack4impact-s-recommendations/reviews"><img src="https://img.shields.io/jetbrains/plugin/r/rating/16260?style=flat-square&label=Rating&logo=jetbrains&logoColor=FFFFFF&labelColor=000000" alt="Rating" /></a>
 <a href="https://github.com/hack4impact/jetbrains-plugin/actions?query=workflow%3A%22CI%22"><img src="https://img.shields.io/github/workflow/status/hack4impact/jetbrains-plugin/CI?style=flat-square&label=Build&logo=github&logoColor=FFFFFF&labelColor=000000" alt="Build"/></a>
 </p>
 

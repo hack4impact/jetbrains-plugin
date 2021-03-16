@@ -61,6 +61,12 @@
                     class="org.hack4impact.recommendations.actions.misc.CreateLicenseTemplate"
                     icon="/icons/pack-icons/license.svg"
             />
+            <action id="hack4impact.templates.create.CodeOwners"
+                    text="Create CodeOwners Template"
+                    description="Create Hack4Impact's Recommended CodeOwners Template"
+                    class="org.hack4impact.recommendations.actions.misc.CreateCodeOwnersTemplate"
+                    icon="/icons/pack-icons/codeowners.svg"
+            />
             <add-to-group group-id="ToolsMenu" />
         </group>
     </actions>
