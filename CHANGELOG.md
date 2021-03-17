@@ -6,8 +6,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/), and this 
 
 **Table of Contents**
 
-- [Unreleased](#unreleased)
+- [[0.0.1] - (2020-03-09)](#001---2020-03-09)
 
 ## [Unreleased]
+
+### Added
+
+- Create CodeOwners Template Action
+
+## [0.0.1] - (2020-03-09)
 
 - Initial Release

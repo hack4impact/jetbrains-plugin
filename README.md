@@ -21,6 +21,7 @@ Hack4Impact's JetBrains plugin that provides recommended templates for quality p
 - GitIgnore (`.gitignore`)
 - Changelog (`CHANGELOG.md`)
 - License (`LICENSE.md`)
+- CodeOwners (`CODEOWNERS`)
 
 If you use VS Code instead, install the [VS Code Extension](https://github.com/hack4impact/vscode-extension).
 <!-- Plugin description end -->
@@ -37,6 +38,7 @@ If you use VS Code instead, install the [VS Code Extension](https://github.com/h
   - [Create GitIgnore Template](#create-gitignore-template)
   - [Create Changelog Template](#create-changelog-template)
   - [Create License Template](#create-license-template)
+  - [Create CodeOwners Template](#create-codeowners-template)
 - [Contributors](#contributors)
 
 ## Installation
@@ -159,6 +161,17 @@ All Actions can be found on the menu bar: <kbd>Tools</kbd> > <kbd>Hack4Impact</k
 
 - Shows a File Picker Dialog to pick the folder where a `LICENSE.md` file should be created
 - Creates a boilerplate `LICENSE.md` file
+
+### Create CodeOwners Template
+
+#### Action ID
+
+`hack4impact.templates.create.CodeOwners`
+
+#### Description
+
+- Shows a File Picker Dialog to pick the folder where a `CODEOWNERS` file should be created
+- Creates a boilerplate `CODEOWNERS` file
 
 ## Contributors
 
