@@ -12,7 +12,7 @@
 </p>
 
 <!-- Plugin description -->
-Hack4Impact's JetBrains plugin that provides recommended templates for quality project development:
+JetBrains Plugin that provides recommended templates for quality project development:
 
 - ESLint Configuration (`.eslintrc.json`)
 - Prettier Configuration (`.prettierrc.json`)
